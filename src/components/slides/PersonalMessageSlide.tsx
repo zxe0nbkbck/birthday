@@ -51,7 +51,7 @@ export default function PersonalMessageSlide({ onPrev }: PersonalMessageSlidePro
               I wish apan paas me rehete toh kitna maza aata na yaar, har din ek naya adventure hota. Har roj ghumte gedi maarte khaane jaate huihuihui.
             </p>
             <p>
-              And yk what bhai I miss you a lottt tu imagine bhi nahi kar paati hogi kitna miss karta hu i feel jealous when log apne mahila mitr k sath ghumne jaate hai gedi maarte hai trass dete hai, I miss you a little more tevha. Well jyada kuch likhunga nahi idhar kyuki baaki sab toh phone pe bol hi dunga hehe "AGAR UTHAYA TOH😒😒". once again Happyyyy 18th Birthdayyyyy Niggu 😋😋 Maje karo partyy do jaldi hehe 🥳
+              And yk what bhai I miss you a lottt tu imagine bhi nahi kar paati hogi kitna miss karta hu i feel jealous when log apne mahila mitr k sath ghumne jaate hai gedi maarte hai trass dete hai, I miss you a little more tevha. Well jyada kuch likhunga nahi idhar kyuki baaki sab toh phone pe bol hi dunga hehe "AGAR UTHAYA TOH😒😒". once again Happyyyy 18th Birthdayyyyy Niggu 😋😋 Maje karo partyy do jaldi hehe 🥳. Also Sorry Itna Low effort type wish k liye. Milte hai fir Jaldiii
             </p>
             <p className="font-bold text-white pt-4">
               With Love,

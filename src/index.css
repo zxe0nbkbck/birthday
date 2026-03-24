@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&display=swap');
+
+@layer base {
+  body {
+    background-color: #030303;
+    color: #ffffff;
+    margin: 0;
+    font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+    /* Prevent scrolling since we're using a full-screen slide system */
+    overflow: hidden;
+    overscroll-behavior: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Reusable deep gradient animation for the background orbs */
+@keyframes aurora {
+  0% { transform: translate(0, 0) scale(1) rotate(0deg); }
+  33% { transform: translate(5vw, -5vh) scale(1.2) rotate(45deg); }
+  66% { transform: translate(-3vw, 4vh) scale(0.9) rotate(-15deg); }
+  100% { transform: translate(0, 0) scale(1) rotate(0deg); }
+}
+
+.animate-aurora {
+  animation: aurora 20s infinite alternate cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Slim custom scrollbar for the personal message slide */
+.scrollbar-slim {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(168, 85, 247, 0.4) transparent;
+}
+.scrollbar-slim::-webkit-scrollbar {
+  width: 4px;
+}
+.scrollbar-slim::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-slim::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #a855f7, #ec4899);
+  border-radius: 9999px;
+}
+.scrollbar-slim::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #c084fc, #f472b6);
+}

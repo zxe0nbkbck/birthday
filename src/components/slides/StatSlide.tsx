@@ -40,7 +40,7 @@ export default function StatSlide() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.5, duration: 0.8 }}
       >
-        hours making my <br /> <span className="text-pink-500">life better.</span>
+        hours making my <br /> <span className="text-pink-500">life better.</span> Thats about 5 Years Thats Crazy right?
       </motion.h3>
     </div>
   );
